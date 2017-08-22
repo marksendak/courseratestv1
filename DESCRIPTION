@@ -8,9 +8,13 @@ Description: This package contains four functions to work with FARS data sets
 License: GLP (>= 2)
 Encoding: UTF-8
 LazyData: true
-Suggests: knitr,
+Imports: knitr,
     rmarkdown,
     testthat,
-    dplyr
+    dplyr,
+    readr,
+    tidyr,
+    maps,
+    graphics
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
