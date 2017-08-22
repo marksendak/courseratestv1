@@ -1,12 +1,14 @@
-Package: courseratestv1
+Package: coursera.brp.mps
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Work with FARS data sets
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Mark Sendak
+Maintainer: Mark Sendak <mark.sendak@gmail.com>
+Description: This package contains four functions to work with FARS data sets
+License: GLP (>= 2)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr

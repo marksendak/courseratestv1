@@ -1,0 +1,38 @@
+---
+title: "Function Details"
+author: "Mark Sendak"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Function Details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Overview
+
+This package contains 5 functions to work effectively with FARS data files.
+
+The fatality analysis reporting system (FARS) data files capture fatal accidents in the United States and are provided by the US National Highway Traffic Safety Administration.
+
+## Functions
+
+### FARS Read
+
+A simple function to read in the compressed .csv.bz2 files that are made available by the US National Highway Traffic Safety Administration. The files are read in as tbl data frame objects from the dplyr package.
+
+### Make Filename
+
+A simple function to build the name of compressed .csv.bz2 files that are made available by the US National Highway Traffic Safety Administration.
+
+### FARS Read Years
+
+A function to read in the compressed .csv.bz2 files that are made available by the US National Highway Traffic Safety Administration. The user specifies a vector of years, and subsets of the data are read in to include only year and month columns. The files are read in as tbl data frame objects from the dplyr package.
+
+### FARS Summarize Years
+
+A function to read in multiple years of files that are made available by the US National Highway Traffic Safety Administration. The files are read in as a list, appended, and summarized using dplyr and tidyr functions.
+
+### FARS Map State
+
+A function to plot fatal accidents with a state from files that are made available by the US National Highway Traffic Safety Administration. The function returns a plot as a side effect.
