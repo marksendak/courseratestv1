@@ -1,4 +1,4 @@
-library(coursera.brp.mps)
+library(courseratestv1)
 context("FARS filename")
 
 test_that("filename matches existing files", {
