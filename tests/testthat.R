@@ -1,4 +1,4 @@
 library(testthat)
-library(coursera.brp.mps)
+library(courseratestv1)
 
 test_check("courseratestv1")
