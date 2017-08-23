@@ -8,9 +8,7 @@ Description: This package contains four functions to work with FARS data sets
 License: GLP (>= 2)
 Encoding: UTF-8
 LazyData: true
-Imports: knitr,
-    rmarkdown,
-    testthat,
+Imports: testthat,
     dplyr,
     readr,
     tidyr,
