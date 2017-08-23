@@ -35,9 +35,11 @@ bind_rows(), group_by(), and summarize() from dplyr and spread()
 }
 
 \examples{
+\dontrun{
 fars_summarize_years(c(2013,2050))
 fars_summarize_years(2013)
 fars_summarize_years(c("2013","2014","2015"))
+}
 
 }
 \seealso{

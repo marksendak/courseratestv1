@@ -24,7 +24,9 @@
 #'  \href{https://www.rdocumentation.org/packages/dplyr/versions/0.5.0/topics/tbl_df}{tbl_df} for more about the tbl_df class
 #'
 #' @examples
+#' \dontrun{
 #' fars_read("accident_2013.csv.bz2")
+#' }
 #'
 #' @export
 fars_read <- function(filename) {
@@ -55,8 +57,10 @@ fars_read <- function(filename) {
 #' None
 #'
 #' @examples
+#' \dontrun{
 #' make_filename("2015")
 #' make_filename(2015)
+#' }
 #'
 #' @export
 make_filename <- function(year) {
@@ -90,11 +94,13 @@ make_filename <- function(year) {
 #' @seealso \href{https://cran.r-project.org/web/packages/dplyr/dplyr.pdf}{dplyr CRAN documentation} for more about dplyr
 #'
 #' @examples
+#' \dontrun{
 #' fars_read_years(c("2013","2014","2015"))
 #' fars_read_years(c("2013","2014",2015))
 #' fars_read_years(c("2013"))
 #' fars_read_years(2013)
 #' fars_read_years(c("2013","2014","2050"))
+#' }
 #'
 #' @export
 fars_read_years <- function(years) {
@@ -140,9 +146,11 @@ fars_read_years <- function(years) {
 #'    to learn about data tidying
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(c(2013,2050))
 #' fars_summarize_years(2013)
 #' fars_summarize_years(c("2013","2014","2015"))
+#' }
 #'
 #' @export
 fars_summarize_years <- function(years) {
@@ -183,10 +191,12 @@ fars_summarize_years <- function(years) {
 #' @seealso \href{https://cran.r-project.org/web/packages/maps/maps.pdf}{maps CRAN documentation} for more about maps package
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(state.num = 6, year = 2015)
 #' fars_map_state(6, 2015)
 #' fars_map_state("6", "2015")
 #' fars_map_state("6", "2014")
+#' }
 #'
 #' @export
 fars_map_state <- function(state.num, year) {

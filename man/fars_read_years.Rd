@@ -35,11 +35,13 @@ mutate() and select() from dplyr
 }
 
 \examples{
+\dontrun{
 fars_read_years(c("2013","2014","2015"))
 fars_read_years(c("2013","2014",2015))
 fars_read_years(c("2013"))
 fars_read_years(2013)
 fars_read_years(c("2013","2014","2050"))
+}
 
 }
 \seealso{

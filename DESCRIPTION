@@ -4,7 +4,7 @@ Title: Work with FARS data sets
 Version: 0.1.0
 Author: Mark Sendak
 Date: 2017-08-22
-Imports: dplyr, readr, tidyr, maps, graphics
+Imports: dplyr, readr, tidyr, maps, graphics, magrittr
 Suggests: knitr, testthat, rmarkdown
 Maintainer: Mark Sendak <mark.sendak@gmail.com>
 Description: This package contains four functions to work with FARS data sets

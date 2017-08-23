@@ -33,7 +33,9 @@ read_csv() from readr and tbl_df() from dplyr
 }
 
 \examples{
+\dontrun{
 fars_read("accident_2013.csv.bz2")
+}
 
 }
 \seealso{

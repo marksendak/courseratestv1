@@ -30,7 +30,9 @@ None
 }
 
 \examples{
+\dontrun{
 make_filename("2015")
 make_filename(2015)
+}
 
 }

@@ -40,10 +40,12 @@ map() from maps package and points() from graphics package
 }
 
 \examples{
+\dontrun{
 fars_map_state(state.num = 6, year = 2015)
 fars_map_state(6, 2015)
 fars_map_state("6", "2015")
 fars_map_state("6", "2014")
+}
 
 }
 \seealso{
