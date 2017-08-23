@@ -13,4 +13,4 @@ This package contains 5 R functions for working with fatality analysis resportin
 This package is written by Mark Sendak.
 
 ## Status
-[![Build Status](https://travis-ci.org/marksendak/coursera.brp.mps.svg?branch=master)](https://travis-ci.org/marksendak/coursera.brp.mps)
+[![Build Status](https://travis-ci.org/marksendak/courseratestv1.svg?branch=master)](https://travis-ci.org/marksendak/courseratestv1)
