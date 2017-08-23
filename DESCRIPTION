@@ -3,16 +3,14 @@ Type: Package
 Title: Work with FARS data sets
 Version: 0.1.0
 Author: Mark Sendak
+Date: 2017-08-22
+Depends: R (>=3.0.0)
+Imports: dplyr, readr, tidyr, maps, graphics
+Suggests: knitr, testthat, rmarkdown
 Maintainer: Mark Sendak <mark.sendak@gmail.com>
 Description: This package contains four functions to work with FARS data sets
 License: GLP (>= 2)
 Encoding: UTF-8
 LazyData: true
-Imports: testthat,
-    dplyr,
-    readr,
-    tidyr,
-    maps,
-    graphics
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
